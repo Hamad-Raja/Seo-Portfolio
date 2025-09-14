@@ -7,7 +7,7 @@ export default function Footer(){
         <div>
           <div className="flex items-center gap-2 mb-3">
             <span className="h-8 w-8 rounded-xl inline-block">
-               <img className='rounded-xl' src="/src/assets/SEO.jpeg" alt="logo" />
+               <img className='rounded-xl' src="/images/SEO.jpeg "alt="logo" />
             </span>
             <span className="font-bold">SEO by HANAN</span>
           </div>
