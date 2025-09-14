@@ -7,7 +7,7 @@ import Testimonial from '../components/Testimonial'
 import CTA from '../components/CTA'
 import { services } from '../data/services'
 import { testimonials } from '../data/testimonials'
-import Profile from '../assets/Profile.jpeg'
+
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           {/* <div className="card p-6 max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg"> */}
             <img
-              src={Profile}
+              src='/images/Profile.jpeg'
               alt="Hanan – SEO Expert"
               className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-72 lg:h-72 object-cover mx-auto"
             />

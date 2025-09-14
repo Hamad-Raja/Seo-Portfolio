@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { nav } from '../data/nav';
-import seo from '../assets/SEO.jpeg'
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <span className="h-10 w-10 rounded-xl inline-block">
-            <img className="rounded-xl" src={seo} alt="logo" />
+            <img className="rounded-xl" src='/images/SEO.jpeg' alt="logo" />
           </span>
           <span className="font-extrabold tracking-tight">HANAN</span>
         </Link>
